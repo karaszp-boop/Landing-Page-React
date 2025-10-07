@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -20,18 +21,20 @@ const Home = (props) => {
               </svg>
             </div>
             <div className="home-links-container1">
-              <a href="#resources" className="home-link10 Anchor">
-                Resources
+              <a href="#inspiration" className="home-link10 Anchor">
+                <span>Reso</span>
+                <span>u</span>
+                <span>rces</span>
               </a>
               <a href="#inspiration" className="home-link11 Anchor">
                 Inspiration
               </a>
-              <a href="#process" className="home-link12 Anchor">
+              <a href="#process" className="home-link12">
                 Process
               </a>
-              <a href="#ourstory" className="home-link13 Anchor">
+              <Link to="/" className="home-link13 Anchor">
                 Our story
-              </a>
+              </Link>
             </div>
           </div>
           <div className="home-right-side">
@@ -67,12 +70,11 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-container3"></div>
       <div id="resources" className="home-hero">
         <div className="home-content-container1">
           <h1 className="home-heading1">Metamod Analytics</h1>
           <div className="home-hero-text">
-            <span className="home-text10">
+            <span className="home-text13">
               Metamod Analytics W.L.L. is a technology company specializing in
               the creation of modular artificial intelligence (AI) systems and
               digital twins for urban environments, infrastructure, and
@@ -89,7 +91,7 @@ const Home = (props) => {
       </div>
       <div id="inspiration" className="home-features">
         <div className="home-heading-container1">
-          <h2 className="home-text11">
+          <h2 className="home-text14">
             Cutting-edge technology for comprehensive data collection, including
             satellite imagery, LiDAR scanning, mobile mapping, and
             ground-penetrating radar. Our goal is to capture physical reality
@@ -106,7 +108,7 @@ const Home = (props) => {
             </div>
             <div className="home-text-container1">
               <span className="home-heading2 Card-Heading">Meta</span>
-              <span className="home-text12">
+              <span className="home-text15">
                 Represents metadata, the metaverse, and the collective
                 intelligence of data. Metamod Analytics employs the most
                 advanced technologies for data collection – from satellite
@@ -128,7 +130,7 @@ const Home = (props) => {
             </div>
             <div className="home-text-container2">
               <span className="home-heading3 Card-Heading">Mod</span>
-              <span className="home-text13">
+              <span className="home-text16">
                 Means modification, adjustment, and data processing. In this
                 phase, diverse data sources are standardized and transformed
                 into formats suitable for individual or systemic
@@ -149,7 +151,7 @@ const Home = (props) => {
             </div>
             <div className="home-text-container3">
               <span className="home-heading4 Card-Heading">Analysis</span>
-              <span className="home-text14">
+              <span className="home-text17">
                 Represents deep analysis, interpretation, and synthesis of data.
                 The company applies artificial intelligence and advanced
                 analytical algorithms to evaluate and extract key insights.The
@@ -164,8 +166,8 @@ const Home = (props) => {
       </div>
       <div id="process" className="home-services">
         <div className="home-heading-container2">
-          <h1 className="home-text15 Section-Heading">Implementation</h1>
-          <span className="home-text16">
+          <h1 className="home-text18 Section-Heading">Implementation</h1>
+          <span className="home-text19">
             The final stage focuses on implementing and integrating data into
             real-world systems. Metamod Analytics ensures seamless integration
             of digital twins with existing infrastructures, develops
@@ -177,14 +179,14 @@ const Home = (props) => {
         </div>
         <div className="home-cards-container2">
           <div className="home-service-card1">
-            <h3 className="home-text17">
+            <h3 className="home-text20">
               <span>
                 Satellite, Aerial Data, UAV LiDAR, Mobile Mapping, GPR
                 Acquisition
               </span>
               <br></br>
             </h3>
-            <span className="home-text20">
+            <span className="home-text23">
               <span>
                 High-altitude and aerial captures to cover vast areas
                 reliably. High-precision 3D scans for assets, corridors and
@@ -201,15 +203,15 @@ const Home = (props) => {
                 />
               </span>
             </span>
-            <span className="Anchor">Learn more</span>
+            <span className="home-link18 Anchor">Learn more</span>
           </div>
           <div className="home-service-card2">
-            <h3 className="home-text25">
+            <h3 className="home-text28">
               <span>Standardization &amp; Post-processing</span>
               <br className="Card-Heading"></br>
               Community
             </h3>
-            <span className="home-text28">
+            <span className="home-text31">
               <span>
                 Turn raw sources into consistent, analysis-ready layers (1D–4D).
               </span>
@@ -229,15 +231,15 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="Anchor">Learn more</span>
+            <span className="home-link19 Anchor">Learn more</span>
           </div>
           <div className="home-service-card3">
-            <h3 className="home-text32">
+            <h3 className="home-text35">
               <span>AI Analytics, Integration &amp; Deployment</span>
               <br className="Card-Heading"></br>
               Newsroom
             </h3>
-            <span className="home-text35">
+            <span className="home-text38">
               <span>
                 Models for detection, prediction and optimization across
                 operational domains. Dashboards, APIs and system integration for
@@ -259,15 +261,15 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="Anchor">Learn more</span>
+            <span className="home-link20 Anchor">Learn more</span>
           </div>
         </div>
       </div>
       <div className="home-section-separator1"></div>
       <div className="home-team">
         <div className="home-heading-container3">
-          <h1 className="home-text39 Section-Heading">Meet the Team</h1>
-          <span className="home-text40 Section-Text">
+          <h1 className="home-text42 Section-Heading">Meet the Team</h1>
+          <span className="home-text43 Section-Text">
             Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
           </span>
@@ -323,8 +325,8 @@ const Home = (props) => {
       <div className="home-section-separator2"></div>
       <div id="ourstory" className="home-our-story">
         <div className="home-heading-container4">
-          <h1 className="home-text41 Section-Heading">Our story</h1>
-          <span className="home-text42 Section-Text">
+          <h1 className="home-text44 Section-Heading">Our story</h1>
+          <span className="home-text45 Section-Text">
             Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
           </span>
@@ -344,7 +346,7 @@ const Home = (props) => {
                 This text is the name of the article. Lorem ipsum dolor sit
                 metsed do eiusm od tempor.
               </span>
-              <span className="home-text43 Card-Text">
+              <span className="home-text46 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
@@ -353,7 +355,7 @@ const Home = (props) => {
                 taciti sociosqu ad litora torquent per conubia nostra, per
                 inceptos himenaeos.
               </span>
-              <span className="home-text44 Card-Text">
+              <span className="home-text47 Card-Text">
                 {' '}
                 Fusce nec tellus sed augue semper porta. Mauris massa.
                 Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu
@@ -387,7 +389,7 @@ const Home = (props) => {
                 className="home-image2"
               />
               <div className="home-content-container3">
-                <span className="home-text47 SmallCard-Heading">
+                <span className="home-text50 SmallCard-Heading">
                   This text is the name of the article. Lorem ipsum dolor sit
                   metsed ...
                 </span>
@@ -418,7 +420,7 @@ const Home = (props) => {
                 className="home-image3"
               />
               <div className="home-content-container4">
-                <span className="home-text50 SmallCard-Heading">
+                <span className="home-text53 SmallCard-Heading">
                   This text is the name of the article. Lorem ipsum dolor sit
                   metsed ...
                 </span>
@@ -449,7 +451,7 @@ const Home = (props) => {
                 className="home-image4"
               />
               <div className="home-content-container5">
-                <span className="home-text53 SmallCard-Heading">
+                <span className="home-text56 SmallCard-Heading">
                   This text is the name of the article. Lorem ipsum dolor sit
                   metsed ...
                 </span>
@@ -480,7 +482,7 @@ const Home = (props) => {
                 className="home-image5"
               />
               <div className="home-content-container6">
-                <span className="home-text56 SmallCard-Heading">
+                <span className="home-text59 SmallCard-Heading">
                   This text is the name of the article. Lorem ipsum dolor sit
                   metsed ...
                 </span>
@@ -509,7 +511,7 @@ const Home = (props) => {
       </div>
       <div className="home-section-separator3"></div>
       <div className="home-get-in-touch">
-        <h2 className="home-text59 Section-Heading">Get in touch</h2>
+        <h2 className="home-text62 Section-Heading">Get in touch</h2>
         <div className="home-content-container7">
           <div className="home-form-container">
             <span className="home-heading6 BigCard-Heading">
@@ -588,7 +590,7 @@ const Home = (props) => {
         </div>
       </div>
       <a href="https://play.teleporthq.io/signup" className="home-link27">
-        <div aria-label="Sign up to TeleportHQ" className="home-container4">
+        <div aria-label="Sign up to TeleportHQ" className="home-container3">
           <svg
             width="24"
             height="24"
@@ -610,7 +612,7 @@ const Home = (props) => {
               fill="#2874DE"
             ></path>
           </svg>
-          <span className="home-text66">Built in TeleportHQ</span>
+          <span className="home-text69">Built in TeleportHQ</span>
         </div>
       </a>
     </div>
